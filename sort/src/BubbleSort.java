@@ -3,7 +3,7 @@
  * @QQ:2890241339
  **/
 
-public class a {
+public class BubbleSort {
     public static void main(String[] args) {
         System.out.println("hello world");
     }
