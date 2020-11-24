@@ -16,7 +16,6 @@ public class Function {
         // 下面开始写代码
         System.out.println(add(1,2));
 
-
     }
 
     // 这是一个函数示例
