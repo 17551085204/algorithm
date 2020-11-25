@@ -14,6 +14,7 @@ public class Sum {
     }
 
     // 这是一个函数示例
+    // 计算1~n累加求和
     public static  int sum(int n) {
         // 可以按照需要修改逻辑代码
         int res=0;

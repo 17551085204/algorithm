@@ -96,6 +96,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="ToolWindowEvent Log.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
@@ -124,7 +125,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.QuickSort1">
+  <component name="RunManager" selected="Application.Sum">
     <configuration name="Function" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Function" />
       <module name="mytest" />
@@ -212,11 +213,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Sum" />
         <item itemvalue="Application.QuickSort1" />
         <item itemvalue="Application.PowerOfTwo" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.Function" />
-        <item itemvalue="Application.Sum" />
       </list>
     </recent_temporary>
   </component>
