@@ -8,13 +8,10 @@
 
 public class Function {
     public static void main(String[] args) {
-        //Scanner   scanner =  new Scanner(System.in);
-        //System.out.println("请输入名字：");
-        //String   name =  scanner.nextLine();
-        //System.out.println("姓名是："+name);
-        System.out.println("hello");
         // 下面开始写代码
         System.out.println(add(1,2));
+        int[]arr={3,7,5,2,5};
+        getMax(arr);
 
     }
 
@@ -22,7 +19,20 @@ public class Function {
     public static int add(int a, int b) {
         // 可以按照需要修改逻辑代码
         return a + b;
+    }
 
+    /**
+     * 得到数组中的最大值
+     * @param arr
+     */
+    public static void getMax(int[]arr){
+        int max=arr[0];
+        for (int i = 1; i < arr.length; i++) {
+            if(arr[i]>max){
+                max=arr[i];
+            }
+        }
+        System.out.println("数组中的最大值:"+max);
     }
 
 
