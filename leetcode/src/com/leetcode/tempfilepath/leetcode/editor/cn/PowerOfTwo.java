@@ -23,14 +23,18 @@ package com.leetcode.tempfilepath.leetcode.editor.cn;
 public class PowerOfTwo {
     public static void main(String[] args) {
         Solution solution = new PowerOfTwo().new Solution();
-        System.out.println("hello");
+        System.out.println(solution.isPowerOfTwo(32));
     }
     //leetcode submit region begin(Prohibit modification and deletion)
+    /*
+     */
 class Solution {
     public boolean isPowerOfTwo(int n) {
+        if (n == 0) {return false;}
+        while (n % 2 == 0) {n /= 2;}
+        return n == 1;
 
 
-        return true;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
