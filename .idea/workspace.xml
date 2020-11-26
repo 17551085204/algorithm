@@ -113,9 +113,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Function">
+  <component name="RunManager" selected="Application.Hello">
     <configuration name="Function" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Function" />
+      <module name="mytest" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="Hello" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Hello" />
       <module name="mytest" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -129,11 +134,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-    </configuration>
-    <configuration name="QuickSort1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="QuickSort1" />
-      <module name="sort" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
     <configuration name="StringToIntegerAtoi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.leetcode.tempfilepath.leetcode.editor.cn.StringToIntegerAtoi" />
@@ -194,18 +194,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.Sum" />
-      <item itemvalue="Application.QuickSort1" />
       <item itemvalue="Application.MedianOfTwoSortedArrays" />
       <item itemvalue="Application.StringToIntegerAtoi" />
       <item itemvalue="Application.Function" />
+      <item itemvalue="Application.Hello" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Hello" />
         <item itemvalue="Application.Function" />
         <item itemvalue="Application.StringToIntegerAtoi" />
         <item itemvalue="Application.MedianOfTwoSortedArrays" />
         <item itemvalue="Application.Sum" />
-        <item itemvalue="Application.QuickSort1" />
       </list>
     </recent_temporary>
   </component>
