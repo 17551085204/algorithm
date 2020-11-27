@@ -28,6 +28,7 @@
 
 package com.leetcode.tempfilepath.leetcode.editor.cn;
 
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 
 public class PalindromeNumber {
@@ -36,6 +37,7 @@ public class PalindromeNumber {
     }
     //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
+
     public boolean isPalindrome(int num) {
         if(num<0){
             return  false;
@@ -45,6 +47,7 @@ class Solution {
             int n =0;
             while (num!=0){
                 nums.add(num%10);
+
                 num/=10;
             }
             boolean flag=true;
@@ -54,6 +57,7 @@ class Solution {
                     break;
                 }
             }
+
             return flag;
 
 
