@@ -16,8 +16,12 @@ public class Hello {
         for (int i = 0; i < 10; i++) {
             System.out.println("第"+(i+1)+"遍");
         }
-
-
+        // whil循环
+        int x=0;
+        while (x<10){
+            System.out.println(x);
+            x++;
+        }
 
     }
 }
