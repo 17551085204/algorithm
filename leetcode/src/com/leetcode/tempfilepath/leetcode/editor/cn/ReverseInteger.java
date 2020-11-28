@@ -43,7 +43,7 @@ class Solution {
             int pop=x%10; // 获取x的每一位数
             x/=10;
             // 需要考虑到数值的范围
-            /********/
+
             if (res > Integer.MAX_VALUE/10 || (res == Integer.MAX_VALUE / 10 && pop > 7)) return 0;
             if (res < Integer.MIN_VALUE/10 || (res == Integer.MIN_VALUE / 10 && pop < -8)) return 0;
 
