@@ -19,6 +19,20 @@ public class my02 {
 
     }
 
+    @Test
+    public void my02(){
+        // 将string转为整数
+        String str="12663";
+        char[] chars = str.toCharArray();
+        int res=0;
+        for (int i = 0; i < chars.length; i++) {
+            res=res*10+chars[i]-48;
+        }
+        System.out.println(res);
+
+    }
+
+
 
 
 
