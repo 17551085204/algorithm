@@ -6,7 +6,8 @@
 public class Hello {
     public static void main(String[] args) {
         // java最简单的输出语句
-        System.out.println("hello world");
+        String str="hello world";
+        System.out.println(str);
 
     }
 }
