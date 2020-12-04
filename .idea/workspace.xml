@@ -14,25 +14,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="IsomorphicStrings.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/leetcode/src/com/leetcode/tempfilepath/leetcode/editor/cn/IsomorphicStrings.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1381">
-              <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
-              <folding>
-                <element signature="e#0#817#0" expanded="true" />
-                <element signature="n#!!doc;n#Solution#0;n#IsomorphicStrings#0" expanded="true" />
-                <element signature="method#isIsomorphic#0;class#Solution#0;class#IsomorphicStrings#0" />
-                <element signature="docComment;method#replace#0;class#Solution#0;class#IsomorphicStrings#0" />
-                <element signature="method#replace#0;class#Solution#0;class#IsomorphicStrings#0" />
-                <element signature="e#1443#1507#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -81,7 +63,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="90" />
     <option name="y" value="10" />
     <option name="width" value="1018" />
@@ -95,21 +77,6 @@
       <pane id="ProjectPane">
         <subPane>
           <expand>
-            <path>
-              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mytest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mytest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mytest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="my202012" type="462c0819:PsiDirectoryNode" />
-            </path>
             <path>
               <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
@@ -328,7 +295,7 @@
       <workItem from="1606893871714" duration="599000" />
       <workItem from="1606956112386" duration="1227000" />
       <workItem from="1606967647073" duration="324000" />
-      <workItem from="1607043347218" duration="4874000" />
+      <workItem from="1607043347218" duration="5092000" />
     </task>
     <servers />
   </component>
@@ -356,11 +323,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17222000" />
+    <option name="totallyTimeSpent" value="17440000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="PlantUML" order="3" />
       <window_info anchor="right" id="Palette" order="3" />
@@ -373,12 +339,12 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="right" id="leetcode" order="3" side_tool="true" visible="true" weight="0.11875" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49930555" visible="true" weight="0.27690288" />
+      <window_info anchor="right" id="leetcode" order="3" side_tool="true" visible="true" weight="0.108333334" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49930555" weight="0.27690288" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15277778" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15277778" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -565,8 +531,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/leetcode/src/com/leetcode/tempfilepath/leetcode/editor/cn/IsomorphicStrings.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1381">
-          <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
+        <state relative-caret-position="141">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
           <folding>
             <element signature="e#0#817#0" expanded="true" />
             <element signature="n#!!doc;n#Solution#0;n#IsomorphicStrings#0" expanded="true" />
