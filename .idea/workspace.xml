@@ -140,7 +140,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.IsomorphicStrings">
+  <component name="RunManager" selected="Application.Hello">
     <configuration name="ContainsDuplicate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.leetcode.tempfilepath.leetcode.editor.cn.ContainsDuplicate" />
       <module name="leetcode" />
@@ -163,16 +163,10 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="InsertSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sort.InsertSort" />
-      <module name="algorithm" />
+    <configuration name="Hello" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Hello" />
+      <module name="mytest" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
     </configuration>
     <configuration name="IsomorphicStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.leetcode.tempfilepath.leetcode.editor.cn.IsomorphicStrings" />
@@ -248,19 +242,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.InsertSort" />
       <item itemvalue="Application.my01" />
       <item itemvalue="Application.HappyNumber" />
       <item itemvalue="Application.ContainsDuplicate" />
       <item itemvalue="Application.IsomorphicStrings" />
+      <item itemvalue="Application.Hello" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Hello" />
         <item itemvalue="Application.IsomorphicStrings" />
         <item itemvalue="Application.ContainsDuplicate" />
         <item itemvalue="Application.HappyNumber" />
         <item itemvalue="Application.my01" />
-        <item itemvalue="Application.InsertSort" />
       </list>
     </recent_temporary>
   </component>
