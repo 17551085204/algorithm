@@ -17,6 +17,12 @@ package com.leetcode.tempfilepath.leetcode.editor.cn;
 
 import java.util.ArrayList;
 
+/**
+ *
+ * 链表有关，暂时不熟悉
+ *
+ */
+
 public class AddTwoNumbers {
     public static void main(String[] args) {
         Solution solution = new AddTwoNumbers().new Solution();
