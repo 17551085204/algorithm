@@ -26,21 +26,23 @@ public class ThreeSum {
     public static void main(String[] args) {
         Solution solution = new ThreeSum().new Solution();
         int[]nums={-1, 0, 1, 2, -1, -4};
-        System.out.println(solution.threeSum(nums));
+        System.out.println(solution.threeSum2(nums));
 
     }
     //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
 
     // leetcode提供的答案
+        // 在一个外层循环内部设置双指针，注意，去重的条件设置很重要
     public List<List<Integer>> threeSum(int[] nums) {
         List<List<Integer>> ans = new ArrayList();
         int len = nums.length;
-        if(nums == null || len < 3) return ans;
+        if(nums == null || len < 3) return ans;// 简单情况，直接处理
         Arrays.sort(nums); // 排序
         for (int i = 0; i < len ; i++) {
             if(nums[i] > 0) break; // 如果当前数字大于0，则三数之和一定大于0，所以结束循环
             if(i > 0 && nums[i] == nums[i-1]) continue; // 去重
+            // 设置双指针
             int L = i+1;
             int R = len-1;
             while(L < R){
