@@ -76,7 +76,7 @@ public class RomanToInteger {
 class Solution {
 
     // 不能处理复杂的字符串，比如包含XC这样的子串
-    public int romanToInt(String s) {
+    public int romanToInt2(String s) {
         if(s.equals("IV")){
            return 4;
         }else if(s.equals("IX")){
@@ -145,6 +145,44 @@ class Solution {
         return res;
 
     }
+
+        // leetcode 提供的答案
+        // 将几个特殊情况对应的字符串先在原字符串中将其替换为
+        // 自定义的单个字符，然后就可以逐个字符扫描，累加结果即可
+    public int romanToInt(String s) {
+        s = s.replace("IV","a");
+        s = s.replace("IX","b");
+        s = s.replace("XL","c");
+        s = s.replace("XC","d");
+        s = s.replace("CD","e");
+        s = s.replace("CM","f");
+
+        int result = 0;
+        for (int i=0; i<s.length(); i++) {
+            result += which(s.charAt(i));
+        }
+        return result;
+    }
+
+    public int which(char ch) {
+        switch(ch) {
+            case 'I': return 1;
+            case 'V': return 5;
+            case 'X': return 10;
+            case 'L': return 50;
+            case 'C': return 100;
+            case 'D': return 500;
+            case 'M': return 1000;
+            case 'a': return 4;
+            case 'b': return 9;
+            case 'c': return 40;
+            case 'd': return 90;
+            case 'e': return 400;
+            case 'f': return 900;
+        }
+        return 0;
+    }
+
 
 
 
