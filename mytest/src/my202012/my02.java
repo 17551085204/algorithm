@@ -23,8 +23,9 @@ public class my02 {
         myList.addByOrder(2);
         myList.addByOrder(1);
         myList.addByOrder(7);
-        myList.delete(11);
+//        myList.delete(11);
         myList.show();
+        myList.print_N(4);
 
 
     }
@@ -34,6 +35,64 @@ public class my02 {
 //定义一条链表
 class  MyList{
     Node head=new Node(0);
+
+    // 打印链表倒数第N个节点
+    public void print_N(int N){
+        if(head.next==null){
+            System.out.println("链表为空");
+            return;
+        }
+        int length=getLength();
+        if(N<=length) {
+            Node temp = head;
+            for (int i = 0; i < length-N+1; i++) {
+                temp = temp.next;
+            }
+            System.out.println(temp);
+        }else{
+            System.out.println("链表长度小于"+N);
+        }
+
+    }
+
+
+
+    // 打印链表第N个节点
+    public void printN(int N){
+        if(head.next==null){
+            System.out.println("链表为空");
+            return;
+        }
+        int length=getLength();
+        if(N<=length) {
+            Node temp = head;
+            for (int i = 0; i < N; i++) {
+                temp = temp.next;
+            }
+            System.out.println(temp);
+        }else{
+            System.out.println("链表长度小于"+N);
+        }
+
+    }
+
+
+    // 获取链表长度
+    public int getLength(){
+        if(head.next==null){
+            return 0;
+        }
+        int count=0;
+        Node temp=head;
+        while(temp.next!=null){
+            count++;
+            temp=temp.next;
+        }
+        return count;
+
+    }
+
+
 
     // 删除某一节点
     public void delete(int val){
@@ -102,6 +161,7 @@ class  MyList{
             }
             System.out.print(temp);
         }
+        System.out.println();
 
     }
 
