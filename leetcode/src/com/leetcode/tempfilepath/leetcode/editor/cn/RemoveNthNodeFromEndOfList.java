@@ -38,14 +38,14 @@ public class RemoveNthNodeFromEndOfList {
  */
 class Solution {
     public ListNode removeNthFromEnd(ListNode head, int n) {
-        ListNode dummy = new ListNode(0, head);
-        int length = getLength(head);
+        ListNode dummy = new ListNode(0, head);// 构建一个链表头结点
+        int length = getLength(head);// 获取链表长度，这样可以确定倒数第N个节点需要遍历几次得到
         ListNode cur = dummy;
         for (int i = 1; i < length - n + 1; ++i) {
             cur = cur.next;
         }
-        cur.next = cur.next.next;
-        ListNode ans = dummy.next;
+        cur.next = cur.next.next;// 删除倒数第N个节点
+        ListNode ans = dummy.next;// 构建的头结点的next就是要求的结果
         return ans;
 
     }
