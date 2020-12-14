@@ -301,7 +301,7 @@
       <workItem from="1607733857988" duration="6251000" />
       <workItem from="1607742047529" duration="1602000" />
       <workItem from="1607754450665" duration="6623000" />
-      <workItem from="1607854251079" duration="2183000" />
+      <workItem from="1607854251079" duration="2215000" />
     </task>
     <servers />
   </component>
@@ -338,7 +338,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54716000" />
+    <option name="totallyTimeSpent" value="54748000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
@@ -355,7 +355,7 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info active="true" anchor="right" id="leetcode" order="3" side_tool="true" visible="true" weight="0.0890625" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49930555" visible="true" weight="0.27765957" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49930555" weight="0.27765957" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
