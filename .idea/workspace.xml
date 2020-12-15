@@ -304,6 +304,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1606548345825</updated>
+<<<<<<< Updated upstream
       <workItem from="1606548349815" duration="6077000" />
       <workItem from="1606558571128" duration="176000" />
       <workItem from="1606696742736" duration="2721000" />
@@ -329,6 +330,9 @@
       <workItem from="1607854251079" duration="2183000" />
       <workItem from="1607907978060" duration="13780000" />
 >>>>>>> 1fed2c77f97be80f98a40c1b8198c4e7cf9a36be
+=======
+      <workItem from="1606548349815" duration="6147000" />
+>>>>>>> Stashed changes
     </task>
     <servers />
   </component>
@@ -365,18 +369,23 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< Updated upstream
 <<<<<<< HEAD
     <option name="totallyTimeSpent" value="54748000" />
 =======
     <option name="totallyTimeSpent" value="68496000" />
 >>>>>>> 1fed2c77f97be80f98a40c1b8198c4e7cf9a36be
+=======
+    <option name="totallyTimeSpent" value="6147000" />
+>>>>>>> Stashed changes
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
+    <frame x="-8" y="-8" width="1456" height="876" extended-state="7" />
     <layout>
       <window_info anchor="right" id="PlantUML" order="3" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
+<<<<<<< Updated upstream
       <window_info anchor="bottom" id="Messages" order="7" weight="0.32939634" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
@@ -397,6 +406,23 @@
       <window_info id="Designer" order="2" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14652778" />
       <window_info anchor="right" id="Database" order="3" />
+=======
+      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info id="Image Layers" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.16929133" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="right" id="leetcode" side_tool="true" visible="true" weight="0.1" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info id="Capture Tool" />
+      <window_info id="Designer" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.10694444" />
+      <window_info anchor="right" id="Database" />
+>>>>>>> Stashed changes
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
