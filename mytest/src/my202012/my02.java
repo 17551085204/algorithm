@@ -15,6 +15,7 @@ package my202012;
  * 7，打印链表倒数第N个节点
  * 8，逆序打印链表内容
  * 9，将原链表翻转
+ * 10，两两交换链表中的节点
  *
  */
 
@@ -28,13 +29,19 @@ public class my02 {
         myList.addByOrder(2);
         myList.addByOrder(1);
         myList.addByOrder(7);
+        myList.addByOrder(21);
+//        myList.addByOrder(17);
+
 //        myList.delete(11);
         myList.show();
 //        myList.print_N(4);
 //        myList.reversePrint();
 
         //链表翻转
-        myList.reverse();
+//        myList.reverse();
+//        myList.show();
+        // 链表两两交换
+        myList.swapTwo();
         myList.show();
 
 
@@ -46,6 +53,26 @@ public class my02 {
 //定义一条链表
 class  MyList{
     Node head=new Node(0);
+
+    // 两两交换
+    public void swapTwo(){
+        if(head.next==null){
+            System.out.println("链表为空");
+            return;
+        }
+        if(head.next.next==null){// 只有一个节点
+            return;
+        }
+        Node temp=head;
+        while (temp.next!=null&&temp.next.next!=null){
+            Node start=temp.next;
+            Node end=temp.next.next;
+            temp.next=end;
+            start.next=end.next;
+            end.next=start;
+            temp=start;
+        }
+    }
 
     // 链表翻转
     public void reverse(){
@@ -176,7 +203,7 @@ class  MyList{
             return;
         }
         Node temp=head;
-        while (temp!=null &&temp.next.val<val){
+        while (temp.next!=null &&temp.next.val<val){
             temp=temp.next;
         }
         addNode.next=temp.next;
