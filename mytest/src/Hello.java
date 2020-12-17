@@ -8,7 +8,7 @@ public class Hello {
         // java最简单的输出语句
         String str="hello world";
         System.out.println(str);
-
+        System.out.println(1+1);
 
     }
 }
