@@ -15,7 +15,17 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="my10.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mytest/src/my202012/my10.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="960">
+              <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -36,6 +46,7 @@
         <option value="$PROJECT_DIR$/mytest/src/my202012/my8.java" />
         <option value="$PROJECT_DIR$/mytest/src/my202012/my9.java" />
         <option value="$PROJECT_DIR$/mytest/src/Hello.java" />
+        <option value="$PROJECT_DIR$/mytest/src/my202012/my10.java" />
       </list>
     </option>
   </component>
@@ -48,7 +59,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="228" />
     <option name="y" value="47" />
     <option name="width" value="1018" />
@@ -60,7 +71,7 @@
     </navigator>
     <panes>
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -68,16 +79,11 @@
               <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="mytest" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mytest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -97,14 +103,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Hello">
-    <configuration name="Hello" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Hello" />
-      <module name="mytest" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="NextPermutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.tempfilepath.leetcode.editor.cn.NextPermutation" />
+  <component name="RunManager" selected="Application.my10">
+    <configuration name="ContainerWithMostWater" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.tempfilepath.leetcode.editor.cn.ContainerWithMostWater" />
       <module name="leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -114,11 +115,16 @@
         </pattern>
       </extension>
     </configuration>
+    <configuration name="Hello" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Hello" />
+      <module name="mytest" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="my02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="my202012.my02" />
+    <configuration name="my10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="my202012.my10" />
       <module name="mytest" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -190,18 +196,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.Hello" />
-      <item itemvalue="Application.my02" />
-      <item itemvalue="Application.NextPermutation" />
       <item itemvalue="Application.my8" />
       <item itemvalue="Application.my9" />
+      <item itemvalue="Application.my10" />
+      <item itemvalue="Application.ContainerWithMostWater" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.my10" />
+        <item itemvalue="Application.ContainerWithMostWater" />
         <item itemvalue="Application.Hello" />
         <item itemvalue="Application.my9" />
         <item itemvalue="Application.my8" />
-        <item itemvalue="Application.NextPermutation" />
-        <item itemvalue="Application.my02" />
       </list>
     </recent_temporary>
   </component>
@@ -217,14 +223,16 @@
       <updated>1608016180351</updated>
       <workItem from="1608016181471" duration="3329000" />
       <workItem from="1608212989465" duration="1249000" />
+      <workItem from="1608285075554" duration="693000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4578000" />
+    <option name="totallyTimeSpent" value="5271000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="PlantUML" order="3" />
       <window_info anchor="right" id="Palette" order="3" />
@@ -243,18 +251,19 @@
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2861702" />
+      <window_info anchor="right" id="开发助手" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28608924" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="right" id="leetcode" order="3" side_tool="true" visible="true" weight="0.0296875" />
+      <window_info anchor="right" id="leetcode" order="3" side_tool="true" visible="true" weight="0.1423611" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13229166" />
-      <window_info anchor="right" id="SciView" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13194445" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" id="SciView" order="4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
     </layout>
@@ -286,8 +295,22 @@
     <entry file="file://$PROJECT_DIR$/leetcode/src/com/leetcode/tempfilepath/leetcode/editor/cn/NextPermutation.java" />
     <entry file="file://$PROJECT_DIR$/mytest/src/Hello.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="517">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="254">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/src/com/leetcode/tempfilepath/leetcode/editor/cn/ContainerWithMostWater.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mytest/src/my202012/my10.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="960">
+          <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
         </state>
       </provider>
     </entry>
