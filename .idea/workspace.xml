@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="11747611-ae88-4eef-9bf6-1fdc9602be50" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/com/leetcode/tempfilepath/leetcode/editor/cn/all.json" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/com/leetcode/tempfilepath/leetcode/editor/cn/all.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/com/leetcode/tempfilepath/leetcode/editor/cn/SearchInRotatedSortedArray$Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/com/leetcode/tempfilepath/leetcode/editor/cn/SearchInRotatedSortedArray$Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/com/leetcode/tempfilepath/leetcode/editor/cn/all.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/com/leetcode/tempfilepath/leetcode/editor/cn/all.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,25 +14,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="SearchInRotatedSortedArray.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/leetcode/src/com/leetcode/tempfilepath/leetcode/editor/cn/SearchInRotatedSortedArray.java">
+      <file leaf-file-name="ValidSudoku.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/leetcode/src/com/leetcode/tempfilepath/leetcode/editor/cn/ValidSudoku.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
-              <caret line="50" column="70" lean-forward="true" selection-start-line="50" selection-start-column="70" selection-end-line="50" selection-end-column="70" />
+            <state relative-caret-position="379">
+              <caret line="110" lean-forward="true" selection-start-line="110" selection-end-line="110" />
               <folding>
-                <element signature="e#0#983#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FindFirstAndLastPositionOfElementInSortedArray.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/leetcode/src/com/leetcode/tempfilepath/leetcode/editor/cn/FindFirstAndLastPositionOfElementInSortedArray.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="771">
-              <caret line="61" column="21" lean-forward="true" selection-start-line="61" selection-start-column="21" selection-end-line="61" selection-end-column="21" />
-              <folding>
-                <element signature="e#0#1027#0" expanded="true" />
+                <element signature="e#0#1740#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#1652#3072#0" />
+                <element signature="e#1714#1789#0" />
               </folding>
             </state>
           </provider>
@@ -66,6 +53,7 @@
         <option value="$PROJECT_DIR$/mytest/src/my202012/my10.java" />
         <option value="$PROJECT_DIR$/leetcode/src/com/leetcode/tempfilepath/leetcode/editor/cn/SearchInRotatedSortedArray.java" />
         <option value="$PROJECT_DIR$/leetcode/src/com/leetcode/tempfilepath/leetcode/editor/cn/FindFirstAndLastPositionOfElementInSortedArray.java" />
+        <option value="$PROJECT_DIR$/leetcode/src/com/leetcode/tempfilepath/leetcode/editor/cn/ValidSudoku.java" />
       </list>
     </option>
   </component>
@@ -249,12 +237,12 @@
       <workItem from="1608016181471" duration="3329000" />
       <workItem from="1608212989465" duration="1249000" />
       <workItem from="1608285075554" duration="1333000" />
-      <workItem from="1608444378568" duration="1991000" />
+      <workItem from="1608444378568" duration="4397000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7902000" />
+    <option name="totallyTimeSpent" value="10308000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -278,8 +266,8 @@
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="right" id="leetcode" order="3" side_tool="true" visible="true" weight="0.11875" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.076595746" />
+      <window_info active="true" anchor="right" id="leetcode" order="3" side_tool="true" visible="true" weight="0.092708334" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.07978723" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13177083" />
       <window_info anchor="right" id="SciView" order="4" />
@@ -358,6 +346,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/src/com/leetcode/tempfilepath/leetcode/editor/cn/FindFirstAndLastPositionOfElementInSortedArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="470">
+          <caret line="79" column="13" lean-forward="true" selection-start-line="79" selection-start-column="13" selection-end-line="79" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#1027#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/leetcode/src/com/leetcode/tempfilepath/leetcode/editor/cn/SearchInRotatedSortedArray.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="235">
@@ -368,12 +366,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/src/com/leetcode/tempfilepath/leetcode/editor/cn/FindFirstAndLastPositionOfElementInSortedArray.java">
+    <entry file="file://$PROJECT_DIR$/leetcode/src/com/leetcode/tempfilepath/leetcode/editor/cn/ValidSudoku.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="771">
-          <caret line="61" column="21" lean-forward="true" selection-start-line="61" selection-start-column="21" selection-end-line="61" selection-end-column="21" />
+        <state relative-caret-position="379">
+          <caret line="110" lean-forward="true" selection-start-line="110" selection-end-line="110" />
           <folding>
-            <element signature="e#0#1027#0" expanded="true" />
+            <element signature="e#0#1740#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#1652#3072#0" />
+            <element signature="e#1714#1789#0" />
           </folding>
         </state>
       </provider>
