@@ -61,6 +61,7 @@
 package com.leetcode.tempfilepath.leetcode.editor.cn;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashMap;
 
 public class ValidSudoku {
@@ -142,87 +143,103 @@ class Solution {
         int count=0;
         for (int i = 0; i < 3; i++) {
             for (int j = 0; j < 3; j++) {
-                chars[count++]=board[i][j];
+                count=0;
+                for (int k = 0; k < 3; k++) {
+                    for (int l = 0; l < 3; l++) {
+                        chars[count++]=board[i*3+k][j*3+l];
+                    }
+                }
+                if(!isOk(chars)){
+                    ge=false;
+                }
+
             }
-        }
-        if(!isOk(chars)){
-            ge=false;
-        }
-        count=0;
-        for (int i = 0; i < 3; i++) {
-            for (int j = 3; j < 6; j++) {
-                chars[count++]=board[i][j];
-            }
-        }
-        if(!isOk(chars)){
-            ge=false;
-        }
-        count=0;
-        for (int i = 0; i < 3; i++) {
-            for (int j = 6; j < 9; j++) {
-                chars[count++]=board[i][j];
-            }
-        }
-        if(!isOk(chars)){
-            ge=false;
-        }
-        //=================================
-        count=0;
-        for (int i = 3; i < 6; i++) {
-            for (int j = 0; j < 3; j++) {
-                chars[count++]=board[i][j];
-            }
-        }
-        if(!isOk(chars)){
-            ge=false;
-        }
-        count=0;
-        for (int i = 3; i < 6; i++) {
-            for (int j = 3; j < 6; j++) {
-                chars[count++]=board[i][j];
-            }
-        }
-        if(!isOk(chars)){
-            ge=false;
-        }
-        count=0;
-        for (int i = 3; i < 6; i++) {
-            for (int j = 6; j < 9; j++) {
-                chars[count++]=board[i][j];
-            }
-        }
-        if(!isOk(chars)){
-            ge=false;
-        }
-        //=================================
-        count=0;
-        for (int i = 6; i < 9; i++) {
-            for (int j = 0; j < 3; j++) {
-                chars[count++]=board[i][j];
-            }
-        }
-        if(!isOk(chars)){
-            ge=false;
-        }
-        count=0;
-        for (int i = 6; i < 9; i++) {
-            for (int j = 3; j < 6; j++) {
-                chars[count++]=board[i][j];
-            }
-        }
-        if(!isOk(chars)){
-            ge=false;
-        }
-        count=0;
-        for (int i = 6; i < 9; i++) {
-            for (int j = 6; j < 9; j++) {
-                chars[count++]=board[i][j];
-            }
-        }
-        if(!isOk(chars)){
-            ge=false;
         }
 
+//        boolean ge=true;
+//        int count=0;
+//        for (int i = 0; i < 3; i++) {
+//            for (int j = 0; j < 3; j++) {
+//                chars[count++]=board[i][j];
+//            }
+//        }
+//        if(!isOk(chars)){
+//            ge=false;
+//        }
+//        count=0;
+//        for (int i = 0; i < 3; i++) {
+//            for (int j = 3; j < 6; j++) {
+//                chars[count++]=board[i][j];
+//            }
+//        }
+//        if(!isOk(chars)){
+//            ge=false;
+//        }
+//        count=0;
+//        for (int i = 0; i < 3; i++) {
+//            for (int j = 6; j < 9; j++) {
+//                chars[count++]=board[i][j];
+//            }
+//        }
+//        if(!isOk(chars)){
+//            ge=false;
+//        }
+//        //=================================
+//        count=0;
+//        for (int i = 3; i < 6; i++) {
+//            for (int j = 0; j < 3; j++) {
+//                chars[count++]=board[i][j];
+//            }
+//        }
+//        if(!isOk(chars)){
+//            ge=false;
+//        }
+//        count=0;
+//        for (int i = 3; i < 6; i++) {
+//            for (int j = 3; j < 6; j++) {
+//                chars[count++]=board[i][j];
+//            }
+//        }
+//        if(!isOk(chars)){
+//            ge=false;
+//        }
+//        count=0;
+//        for (int i = 3; i < 6; i++) {
+//            for (int j = 6; j < 9; j++) {
+//                chars[count++]=board[i][j];
+//            }
+//        }
+//        if(!isOk(chars)){
+//            ge=false;
+//        }
+//        //=================================
+//        count=0;
+//        for (int i = 6; i < 9; i++) {
+//            for (int j = 0; j < 3; j++) {
+//                chars[count++]=board[i][j];
+//            }
+//        }
+//        if(!isOk(chars)){
+//            ge=false;
+//        }
+//        count=0;
+//        for (int i = 6; i < 9; i++) {
+//            for (int j = 3; j < 6; j++) {
+//                chars[count++]=board[i][j];
+//            }
+//        }
+//        if(!isOk(chars)){
+//            ge=false;
+//        }
+//        count=0;
+//        for (int i = 6; i < 9; i++) {
+//            for (int j = 6; j < 9; j++) {
+//                chars[count++]=board[i][j];
+//            }
+//        }
+//        if(!isOk(chars)){
+//            ge=false;
+//        }
 
         return hang&&lie&&ge;
     }
