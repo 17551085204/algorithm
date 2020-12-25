@@ -13,7 +13,17 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="my12.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mytest/src/my202012/my12.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="320">
+              <caret line="12" column="8" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -41,6 +51,7 @@
         <option value="$PROJECT_DIR$/leetcode/src/com/leetcode/tempfilepath/leetcode/editor/cn/ValidSudoku.java" />
         <option value="$PROJECT_DIR$/leetcode/src/com/leetcode/tempfilepath/leetcode/editor/cn/CombinationSum.java" />
         <option value="$PROJECT_DIR$/leetcode/src/com/leetcode/tempfilepath/leetcode/editor/cn/CombinationSumIi.java" />
+        <option value="$PROJECT_DIR$/mytest/src/my202012/my12.java" />
       </list>
     </option>
   </component>
@@ -53,7 +64,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="228" />
     <option name="y" value="47" />
     <option name="width" value="1018" />
@@ -67,19 +78,30 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="forjob" type="462c0819:PsiDirectoryNode" />
+              <item name="mytest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mytest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mytest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="my202012" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -100,18 +122,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Hello">
-    <configuration name="AddBinary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.tempfilepath.leetcode.editor.cn.AddBinary" />
-      <module name="leetcode" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.leetcode.tempfilepath.leetcode.editor.cn.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
+  <component name="RunManager" selected="Application.my12">
     <configuration name="FindFirstAndLastPositionOfElementInSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.leetcode.tempfilepath.leetcode.editor.cn.FindFirstAndLastPositionOfElementInSortedArray" />
       <module name="leetcode" />
@@ -144,6 +155,17 @@
     </configuration>
     <configuration name="my11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="my202012.my11" />
+      <module name="mytest" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="my202012.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="my12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="my202012.my12" />
       <module name="mytest" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -192,19 +214,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.AddBinary" />
       <item itemvalue="Application.SearchInRotatedSortedArray" />
       <item itemvalue="Application.FindFirstAndLastPositionOfElementInSortedArray" />
       <item itemvalue="Application.my11" />
       <item itemvalue="Application.Hello" />
+      <item itemvalue="Application.my12" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.my12" />
         <item itemvalue="Application.Hello" />
         <item itemvalue="Application.my11" />
         <item itemvalue="Application.FindFirstAndLastPositionOfElementInSortedArray" />
         <item itemvalue="Application.SearchInRotatedSortedArray" />
-        <item itemvalue="Application.AddBinary" />
       </list>
     </recent_temporary>
   </component>
@@ -223,14 +245,16 @@
       <workItem from="1608285075554" duration="1333000" />
       <workItem from="1608444378568" duration="7176000" />
       <workItem from="1608552534113" duration="1913000" />
+      <workItem from="1608866029907" duration="206000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15000000" />
+    <option name="totallyTimeSpent" value="15306000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="PlantUML" order="3" />
       <window_info anchor="right" id="Palette" order="3" />
@@ -243,12 +267,12 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="right" id="leetcode" order="3" side_tool="true" visible="true" weight="0.16944444" />
+      <window_info anchor="right" id="leetcode" order="3" side_tool="true" visible="true" weight="0.08194444" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.2819149" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13125" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19305556" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -325,7 +349,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/leetcode/src/com/leetcode/tempfilepath/leetcode/editor/cn/FindFirstAndLastPositionOfElementInSortedArray.java" />
     <entry file="file://$PROJECT_DIR$/leetcode/src/com/leetcode/tempfilepath/leetcode/editor/cn/SearchInRotatedSortedArray.java" />
-    <entry file="file://$PROJECT_DIR$/mytest/src/my202012/my11.java" />
     <entry file="file://$PROJECT_DIR$/leetcode/src/com/leetcode/tempfilepath/leetcode/editor/cn/ValidSudoku.java" />
     <entry file="file://$PROJECT_DIR$/mytest/src/Hello.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -338,13 +361,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
           <caret line="49" column="24" lean-forward="true" selection-start-line="49" selection-start-column="24" selection-end-line="49" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#902#0" expanded="true" />
-            <element signature="e#584#585#0" expanded="true" />
-            <element signature="e#657#658#0" expanded="true" />
-            <element signature="e#872#887#0" expanded="true" />
-            <element signature="e#937#946#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -352,9 +368,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
           <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
-          <folding>
-            <element signature="e#0#1992#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mytest/src/my202012/my11.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mytest/src/my202012/my12.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="12" column="8" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
         </state>
       </provider>
     </entry>
