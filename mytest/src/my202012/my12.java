@@ -21,9 +21,82 @@ public class my12 {
 //        double res=sum2n(63);
 //        System.out.println(res);
 
-        System.out.println(Arrays.toString(feibonaqie(14)));
+//        System.out.println(Arrays.toString(feibonaqie(14)));
+
+//        getNum();
+
+//        System.out.println(getCount());
+
+         check();
+
+
 
     }
+
+    // 验证歌德巴赫猜想
+    public static void check(){
+        for (int i = 4; i < 1000; i+=2) {
+            gedabahe(i);
+        }
+
+    }
+
+
+
+    // 判断一个大于2的偶数是否可以被分解为2个质数之和
+    public static  void gedabahe(int n){
+        for (int i = 2; i < n-1; i++) {
+            int j=n-i;
+            if(isprime(i)&&isprime(j)){
+                System.out.println(n+"="+i+"+"+j);
+                break;
+            }
+        }
+
+    }
+
+
+
+    // 判断一个数是否是质数
+    public static boolean isprime(int n){
+        boolean flag=true;
+        for (int i =2; i < n; i++) {
+            if(n%i==0){
+                flag=false;
+                break;
+            }
+        }
+        return flag;
+    }
+
+
+
+
+
+    public static int getCount(){
+        int count=7;
+        while (!(count%2==1&&count%3==2&&count%5==4&&count%6==5&&count%7==0)){
+            count+=7;
+        }
+        return count;
+
+    }
+
+
+
+    public static void getNum(){
+        for (int x = 1; x <10 ; x++) {
+            for (int y = 2; y < 20 ; y+=2) {
+                    int z=30-x-y;
+                    if((3*x+2*y+z)==50){
+                        System.out.println(x+","+y+","+z);
+                }
+
+            }
+        }
+
+    }
+
 
     public  static int[] feibonaqie(int n){
         int[]res=new int[n];

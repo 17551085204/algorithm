@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/mytest/src/my202012/my12.java" line="65" />
+    <bookmark url="file://$PROJECT_DIR$/mytest/src/my202012/my12.java" line="138" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11747611-ae88-4eef-9bf6-1fdc9602be50" name="Default" comment="">
@@ -20,8 +20,8 @@
       <file leaf-file-name="my12.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mytest/src/my202012/my12.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="480">
+              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
             </state>
           </provider>
         </entry>
@@ -67,7 +67,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="228" />
     <option name="y" value="47" />
     <option name="width" value="1018" />
@@ -248,15 +248,15 @@
       <workItem from="1608285075554" duration="1333000" />
       <workItem from="1608444378568" duration="7176000" />
       <workItem from="1608552534113" duration="1913000" />
-      <workItem from="1608866029907" duration="1184000" />
+      <workItem from="1608866029907" duration="6136000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16184000" />
+    <option name="totallyTimeSpent" value="21136000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
+    <frame x="-8" y="-8" width="1456" height="876" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="PlantUML" order="3" />
@@ -278,10 +278,10 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="right" id="开发助手" order="4" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="right" id="leetcode" order="3" side_tool="true" visible="true" weight="0.08194444" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.25721785" />
+      <window_info anchor="right" id="leetcode" order="3" side_tool="true" visible="true" weight="0.07430556" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.12992126" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19305556" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12847222" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -383,8 +383,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mytest/src/my202012/my12.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="480">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
         </state>
       </provider>
     </entry>
