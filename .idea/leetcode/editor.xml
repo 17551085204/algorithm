@@ -3,10 +3,10 @@
   <component name="LeetcodeEditor">
     <option name="projectConfig">
       <map>
-        <entry key="$PROJECT_DIR$/../../../Java_IntelliJ_IDEA_WorkSpace/github/algorithm/leetcode/src/com/leetcode/tempfilepath/leetcode/editor/cn/ReverseInteger.java">
+        <entry key="E:/Java_IntelliJ_IDEA_WorkSpace/github/algorithm/leetcode/src/com/leetcode/tempfilepath/leetcode/editor/cn/ReverseInteger.java">
           <value>
             <LeetcodeEditor>
-              <option name="path" value="$PROJECT_DIR$/../../../Java_IntelliJ_IDEA_WorkSpace/github/algorithm/leetcode/src/com/leetcode/tempfilepath/leetcode/editor/cn/ReverseInteger.java" />
+              <option name="path" value="E:/Java_IntelliJ_IDEA_WorkSpace/github/algorithm/leetcode/src/com/leetcode/tempfilepath/leetcode/editor/cn/ReverseInteger.java" />
               <option name="questionId" value="7" />
             </LeetcodeEditor>
           </value>
@@ -176,14 +176,6 @@
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/leetcode/src/com/leetcode/tempfilepath/leetcode/editor/cn/MedianOfTwoSortedArrays.java" />
               <option name="questionId" value="4" />
-            </LeetcodeEditor>
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/leetcode/src/com/leetcode/tempfilepath/leetcode/editor/cn/MergeKSortedLists.java">
-          <value>
-            <LeetcodeEditor>
-              <option name="path" value="$PROJECT_DIR$/leetcode/src/com/leetcode/tempfilepath/leetcode/editor/cn/MergeKSortedLists.java" />
-              <option name="questionId" value="23" />
             </LeetcodeEditor>
           </value>
         </entry>
