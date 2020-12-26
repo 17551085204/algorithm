@@ -9,6 +9,7 @@ public class Hello {
         String str="hello world";
         System.out.println(str);
         System.out.println(1+1);
+        System.out.println("hello world 你好");
 
     }
 }
