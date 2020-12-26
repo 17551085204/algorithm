@@ -6,6 +6,7 @@
 package my202012;
 
 import java.util.Arrays;
+import java.util.Stack;
 
 public class my12 {
     public static void main(String[] args) {
@@ -27,11 +28,49 @@ public class my12 {
 
 //        System.out.println(getCount());
 
-         check();
+//         check();
 
+//        System.out.println(ten2two(114));
 
+        ishuiwen("45654");
 
     }
+
+    // 判断回文字符串
+    public static void ishuiwen(String str){
+        if(str==null){
+            System.out.println("输入不可以为null");
+            return;
+        }
+        String s = new StringBuilder(str).reverse().toString();
+        boolean flag=s.equals(str);
+        if(flag){
+            System.out.println("是回文串");
+        }else{
+            System.out.println("不是回文串");
+        }
+    }
+
+
+
+
+    // 利用栈实现10进制数转为2进制
+    public  static String ten2two(int num){
+        Stack<Integer> integers = new Stack<>();
+        String res="";
+        while (num!=0){
+            int k=num%2;
+            num=num/2;
+            integers.push(k);
+        }
+        while (!integers.isEmpty()){
+            res+=integers.pop();
+        }
+        return  res;
+
+    }
+
+
 
     // 验证歌德巴赫猜想
     public static void check(){
