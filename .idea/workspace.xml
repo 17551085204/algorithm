@@ -30,7 +30,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../java/javaStudy" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager" selected="Application.Hello">
@@ -161,6 +161,7 @@
       <workItem from="1609483133254" duration="239000" />
       <workItem from="1609483386645" duration="65000" />
       <workItem from="1609483475120" duration="148000" />
+      <workItem from="1609483938386" duration="21000" />
     </task>
     <servers />
   </component>
@@ -168,6 +169,10 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1609483955985">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1609483955985" />
     <state width="1876" height="218" key="GridCell.Tab.0.bottom" timestamp="1609483371822">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
