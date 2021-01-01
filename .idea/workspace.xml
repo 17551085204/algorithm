@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="11747611-ae88-4eef-9bf6-1fdc9602be50" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mytest/src/Hello.java" beforeDir="false" afterPath="$PROJECT_DIR$/mytest/src/Hello.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mytest/Hello.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mytest/Hello.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mytest/META-INF/mytest.kotlin_module" beforeDir="false" />
-    </list>
+    <list default="true" id="11747611-ae88-4eef-9bf6-1fdc9602be50" name="Default" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -165,6 +160,7 @@
       <workItem from="1609482538872" duration="358000" />
       <workItem from="1609483133254" duration="239000" />
       <workItem from="1609483386645" duration="65000" />
+      <workItem from="1609483475120" duration="148000" />
     </task>
     <servers />
   </component>
@@ -197,5 +193,9 @@
     </state>
     <state x="240" y="64" key="SettingsEditor/0.0.1440.860@0.0.1440.860" timestamp="1608967722639" />
     <state x="385" y="120" width="1179" height="708" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1609483370314" />
+    <state x="753" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1609483563641">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="753" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1609483563641" />
   </component>
 </project>
