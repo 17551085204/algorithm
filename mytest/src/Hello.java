@@ -13,17 +13,17 @@ public class Hello {
 //        System.out.println(1+1);
 //        System.out.println("hello world 你好");
 
-//        int i=1;
-//        i=i++;
-//        System.out.println(i);
+        int i=1;
+        i=++i;
+        System.out.println(i);
 
 
-        ArrayList<int[]> ints = new ArrayList<>();
-        for (int i = 0; i < 1000; i++) {
-            Thread.sleep(2000);
-            ints.add(new int[(int)(Math.random()*1000000)]);
-
-        }
+//        ArrayList<int[]> ints = new ArrayList<>();
+//        for (int i = 0; i < 1000; i++) {
+//            Thread.sleep(2000);
+//            ints.add(new int[(int)(Math.random()*1000000)]);
+//
+//        }
 
 
 
