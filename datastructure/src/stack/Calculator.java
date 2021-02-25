@@ -100,11 +100,7 @@ public class Calculator {
                         // 每次都需要清空
                         keppNum = "";
                     }
-
-
                 }
-
-
             }
             index++;
             // 判断是否扫描到最后

@@ -9,20 +9,16 @@ package sparsearray;
 
 import java.io.*;
 import java.util.Arrays;
-
 /*
 要求：
 1)	在前面的基础上，将稀疏数组保存到磁盘上，比如 map.data
 2)	恢复原来的数组时，读取 map.data 进行恢复
  */
-
 // 实现二维数组转稀疏数组以及稀疏数组转二维数组
 public class SparseArray2 {
     public static void main(String[] args) throws IOException, ClassNotFoundException {
-
         arr2sparse();
         sparse2arr();
-
     }
 
     // 读取map.dat文件，得到稀疏数组，将其转为原始数组
@@ -31,7 +27,6 @@ public class SparseArray2 {
         FileInputStream fileInputStream = new FileInputStream(savepath);
         ObjectInputStream objectInputStream = new ObjectInputStream(fileInputStream);
         int[][]sparseArr = (int[][])objectInputStream.readObject(); // 读取稀疏数组
-
         int[][]chessArr2=new int[sparseArr[0][0]][sparseArr[0][1]];
         for (int i = 1; i < sparseArr.length; i++) {
             chessArr2[sparseArr[i][0]][sparseArr[i][1]]=sparseArr[i][2];
@@ -96,9 +91,5 @@ public class SparseArray2 {
         objectOutputStream.writeObject(sparseArr);
 
     }
-
-
-
-
 
 }

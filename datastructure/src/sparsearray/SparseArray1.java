@@ -3,14 +3,8 @@
 @Contact:2890241339@qq.com
 @Date:2020/11/1
 */
-
 package sparsearray;
-//import java.util.Scanner;
-
 import java.util.Arrays;
-
-
-
 // 实现二维数组转稀疏数组以及稀疏数组转二维数组
 public class SparseArray1 {
     public static void main(String[] args) {
@@ -75,7 +69,6 @@ public class SparseArray1 {
         for(int[]temp:chessArr2){
             System.out.println(Arrays.toString(temp));
         }
-
 
     }
 

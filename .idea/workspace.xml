@@ -1,7 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="11747611-ae88-4eef-9bf6-1fdc9602be50" name="Default" comment="" />
+    <list default="true" id="11747611-ae88-4eef-9bf6-1fdc9602be50" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/forjob/src/algorithm/查询子字符串位置.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mytest/src/my202102/my01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datastructure/src/sparsearray/SparseArray1.java" beforeDir="false" afterPath="$PROJECT_DIR$/datastructure/src/sparsearray/SparseArray1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datastructure/src/sparsearray/SparseArray2.java" beforeDir="false" afterPath="$PROJECT_DIR$/datastructure/src/sparsearray/SparseArray2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datastructure/src/stack/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/datastructure/src/stack/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/com/leetcode/tempfilepath/leetcode/editor/cn/all.json" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/com/leetcode/tempfilepath/leetcode/editor/cn/all.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/com/leetcode/tempfilepath/leetcode/editor/cn/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/com/leetcode/tempfilepath/leetcode/editor/cn/translation.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mytest/src/Hello.java" beforeDir="false" afterPath="$PROJECT_DIR$/mytest/src/Hello.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/META-INF/leetcode.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/com/leetcode/tempfilepath/leetcode/editor/cn/FindFirstAndLastPositionOfElementInSortedArray$Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/com/leetcode/tempfilepath/leetcode/editor/cn/FindFirstAndLastPositionOfElementInSortedArray$Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/com/leetcode/tempfilepath/leetcode/editor/cn/all.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/com/leetcode/tempfilepath/leetcode/editor/cn/all.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/com/leetcode/tempfilepath/leetcode/editor/cn/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/com/leetcode/tempfilepath/leetcode/editor/cn/translation.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mytest/Hello.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mytest/Hello.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,19 +61,20 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="ToolWindowjclasslib.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Java_IntelliJ_IDEA_WorkSpace/MyProjects/project00" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.Hello">
-    <configuration name="FindFirstAndLastPositionOfElementInSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.tempfilepath.leetcode.editor.cn.FindFirstAndLastPositionOfElementInSortedArray" />
-      <module name="leetcode" />
+  <component name="RunManager" selected="Application.Calculator">
+    <configuration name="查询子字符串位置" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.查询子字符串位置" />
+      <module name="forjob" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.leetcode.tempfilepath.leetcode.editor.cn.*" />
+          <option name="PATTERN" value="algorithm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -48,18 +82,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Hello" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Hello" />
-      <module name="mytest" />
+    <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stack.Calculator" />
+      <module name="datastructure" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test" />
-      <module name="mytest" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -70,36 +102,62 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="my11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="my202012.my11" />
-      <module name="mytest" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="my202012.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="my12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="my202012.my12" />
-      <module name="mytest" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="my202012.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="my01.my02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mytest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="my202102.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="my202102" />
+      <option name="MAIN_CLASS_NAME" value="my202102.my01" />
+      <option name="METHOD_NAME" value="my02" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="my01.my03" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mytest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="my202102.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="my202102" />
+      <option name="MAIN_CLASS_NAME" value="my202102.my01" />
+      <option name="METHOD_NAME" value="my03" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="my01.my04" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mytest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="my202102.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="my202102" />
+      <option name="MAIN_CLASS_NAME" value="my202102.my01" />
+      <option name="METHOD_NAME" value="my04" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
@@ -117,19 +175,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.FindFirstAndLastPositionOfElementInSortedArray" />
-      <item itemvalue="Application.my11" />
-      <item itemvalue="Application.Hello" />
-      <item itemvalue="Application.my12" />
-      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.查询子字符串位置" />
+      <item itemvalue="JUnit.my01.my02" />
+      <item itemvalue="JUnit.my01.my03" />
+      <item itemvalue="JUnit.my01.my04" />
+      <item itemvalue="Application.Calculator" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Hello" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.my12" />
-        <item itemvalue="Application.my11" />
-        <item itemvalue="Application.FindFirstAndLastPositionOfElementInSortedArray" />
+        <item itemvalue="Application.Calculator" />
+        <item itemvalue="JUnit.my01.my04" />
+        <item itemvalue="Application.查询子字符串位置" />
+        <item itemvalue="JUnit.my01.my03" />
+        <item itemvalue="JUnit.my01.my02" />
       </list>
     </recent_temporary>
   </component>
@@ -163,11 +221,26 @@
       <workItem from="1609483475120" duration="148000" />
       <workItem from="1609483938386" duration="21000" />
       <workItem from="1609569268697" duration="72000" />
+      <workItem from="1613136654944" duration="1693000" />
+      <workItem from="1613205430488" duration="4451000" />
+      <workItem from="1614167992764" duration="2931000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="555" y="227" key="FileChooserDialogImpl" timestamp="1609569339709">
@@ -175,26 +248,26 @@
     </state>
     <state x="555" y="227" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1609569339709" />
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1609483955985" />
-    <state width="1395" height="128" key="GridCell.Tab.0.bottom" timestamp="1609569341019">
-      <screen x="0" y="0" width="1440" height="860" />
+    <state width="1876" height="155" key="GridCell.Tab.0.bottom" timestamp="1614180476940">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1395" height="128" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1609569341019" />
-    <state width="1876" height="218" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1609483371822" />
-    <state width="1395" height="128" key="GridCell.Tab.0.center" timestamp="1609569341019">
-      <screen x="0" y="0" width="1440" height="860" />
+    <state width="1876" height="155" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614180476940" />
+    <state width="1876" height="155" key="GridCell.Tab.0.center" timestamp="1614180476940">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1395" height="128" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1609569341019" />
-    <state width="1876" height="218" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1609483371822" />
-    <state width="1395" height="128" key="GridCell.Tab.0.left" timestamp="1609569341019">
-      <screen x="0" y="0" width="1440" height="860" />
+    <state width="1876" height="155" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614180476940" />
+    <state width="1876" height="155" key="GridCell.Tab.0.left" timestamp="1614180476940">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1395" height="128" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1609569341019" />
-    <state width="1876" height="218" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1609483371822" />
-    <state width="1395" height="128" key="GridCell.Tab.0.right" timestamp="1609569341019">
-      <screen x="0" y="0" width="1440" height="860" />
+    <state width="1876" height="155" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614180476940" />
+    <state width="1876" height="155" key="GridCell.Tab.0.right" timestamp="1614180476940">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1395" height="128" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1609569341019" />
-    <state width="1876" height="218" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1609483371822" />
+    <state width="1876" height="155" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614180476940" />
     <state x="385" y="120" width="1179" height="708" key="SettingsEditor" timestamp="1609483370314">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -204,5 +277,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="753" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1609483563641" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1613205461241">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1613205461241" />
   </component>
 </project>
